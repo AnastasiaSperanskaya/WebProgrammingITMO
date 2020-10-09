@@ -3,6 +3,10 @@
 html {
     font-weight: normal;
     font-family: 'Balsamiq Sans', cursive;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
 }
 
 * {
@@ -59,5 +63,15 @@ a {
 }
 
 body {
-    background-color: rgb(240, 240, 252);
-  }
+    background-image:url(back.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cv{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
