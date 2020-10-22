@@ -16,7 +16,7 @@ Developing further version of CV with self-generated css file.
 
 ## Lab 3,4
 
-Developing further version of CV with self-generated css file.
+Adding padding and borders, combining styles, learning how to use flex and float.
 
 [Link to the task](https://github.com/AnastasiaSperanskaya/WebProgrammingITMO/blob/master/labTasks/Laba_3_4.pdf) <br />
 [Link to the project](https://github.com/AnastasiaSperanskaya/WebProgrammingITMO/tree/master/lab3)
