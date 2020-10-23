@@ -12,6 +12,7 @@
     line-height: 100px;
     padding: 2px;
     transform: rotate(45deg);
+    margin-top: 18px;
 }
 
 .inner {

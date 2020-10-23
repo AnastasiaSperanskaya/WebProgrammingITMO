@@ -267,7 +267,7 @@ ul {
     display: flex;
     flex-direction: column;
     margin-right: 33px;
-    margin-bottom: 38px;
+    margin-bottom: 18px;
 }
 
 
@@ -277,34 +277,45 @@ ul {
     flex-direction: column;
     margin-bottom: 12px;
     margin-right: 27px;
-    }
+}
 
-    .section-item p{
+.section-item p{
     padding: 0px;
     margin: 0px;
     color: #343434;
-    }
+}
 
-    .section-item .company{
+.section-item .company{
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;
-    }
+}
 
-    .section-item .position{
+.section-item .position{
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    }
+}
 
-    .section-item .dates{
+.section-item .dates{
     font-size: 9px;
     line-height: 18px;
     color: #73808D;
-    }
+}
 
-    .section-item .desc{
+.section-item .desc{
         font-size: 9px;
         line-height: 14px;
         color: rgba(0, 0, 0, 0.8);
-    }
+}
+
+.skill-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #545454;
+    margin-top: 5px;
+}
