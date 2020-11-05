@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap');
+
+html {
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    
+}
+
+body {
+    background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cv {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 830px;
+}
+
+.profile {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 253px;
+    height: 116.02px;
+    margin-bottom: 19.98px;
+}
+
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 38px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;    
+    margin-bottom: 5px;
+}
+
+.language-level {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FAFAFA;
+}
+
+.info {
+    margin: 0 auto;
+    width: 260px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;    
+    margin-top: 13px;
+    padding-top: 6px;
+    padding-left: 22px;
+    padding-bottom: 13px;
+    font-family: Quicksand;
+    color: #FFFFFF;
+}
+
+.hobbies {
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 10px;    
+    margin-top: 13px;
+    padding-top: 6px;
+    padding-left: 22px;
+    padding-bottom: 13px;
+}
+
+.first {
+    float: left;
+}
+
+.second {
+    float: right;
+}
+
+.hobbyIcon {
+    width: 44px;
+    height: 45px;
+}
+
+.hobbyIcon1 {
+    width: 34px;
+    height: 46px;
+}
+
+.surname {
+    width: 59px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #CECACA;
+}
+
+.firstname {
+    width: 108px;
+    height: 43px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.profession {
+    width: 121px;
+    height: 18px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #CECACA;
+}
+
+.selfImage {
+    position: absolute;
+    width: 110px;
+    height: 116.02px;
+
+    background: url(images.jpg);
+    border-radius: 93px;    
+}
+
+.container-item-left {
+    width: 296px;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px; 
+    height: 820px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+}
+
+.container-item-right {
+    width: 321px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 6px;
+    height: 799px;
+    padding-top: 31px;
+    padding-left: 14px;
+    padding-right: 13px;
+}
+
+.profile-item-left {
+    width: 110px;
+    height: 116.02px;
+}
+
+.profile-item-right {
+    padding-top: 5px;
+    width: 121px;
+    height: 116.02px;
+    margin-left: 22px;
+    margin-right: 26px;
+}
+
+.contact-item-left {
+    padding-left: 14.73px;
+    width: 69px;
+    height: 24px;
+    padding-top: 7px;
+    justify-content: center;
+}
+
+.contact-item-right {
+    width: 191px;
+    justify-content: left;
+    line-height: 18px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+.mssgIcon, .phoneIcon, .netIcon, .locationIcon {
+    height: 24px;
+    width: 24px;
+}
+
+.info-header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.details {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FAFAFA;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-top: 1px solid #545454;
+    padding-top: 24px;
+    margin-bottom: 12px;
+}
+
+.section-skills{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-top: 1px solid #545454;
+    padding-top: 24px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title{
+    position: absolute;
+    background: #545454;
+    line-height: 24px;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    top: -31px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    width: 154px;
+    text-align: center;
+}
+
+.section-skills-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 33px;
+    margin-bottom: 18px;
+}
+
+
+.section-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    margin-right: 27px;
+}
+
+.section-item p{
+    padding: 0px;
+    margin: 0px;
+    color: #343434;
+}
+
+.section-item .company{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.section-item .position{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.section-item .dates{
+    font-size: 9px;
+    line-height: 18px;
+    color: #73808D;
+}
+
+.section-item .desc{
+        font-size: 9px;
+        line-height: 14px;
+        color: rgba(0, 0, 0, 0.8);
+}
+
+.skill-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #545454;
+    margin-top: 5px;
+}
