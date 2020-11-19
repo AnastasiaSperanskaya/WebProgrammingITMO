@@ -5,6 +5,7 @@
     <link href="fonts.css" rel="stylesheet">
     <link href="diagrams.css" rel="stylesheet">
     <link href="contacts_button.css" rel="stylesheet">
+    <link href="gallery.css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Щагина Анастасия М33071</title>
     <style type="text/css">
@@ -16,7 +17,7 @@
         } 
        </style>
 </head>
-<body>
+<body class="outside-flex-container">
     <div class="cv">
         <div class="container-item">
             <div class="container-item-left">
@@ -287,5 +288,31 @@
             </div>
         </div>
     </div>
+    <div class="gallery-folder">
+        <h1>Gallery</h1>
+        <p class="gallery__photo-full">
+            <img class="full-photo" src="gallery/1.jpeg" width="550" height="367">
+        </p>
+        <p class="gallery__photo-previews">
+            <button class="gallery__photo-preview">
+                <img src="gallery/1.jpeg">
+            </button>
+            <button class="gallery__photo-preview">
+                <img src="gallery/2.jpeg">
+            </button>
+            <button class="gallery__photo-preview">
+                <img src="gallery/3.jpeg">
+            </button>
+            <button class="gallery__photo-preview">
+                <img src="gallery/4.jpeg">
+            </button>
+            <button class="gallery__photo-preview">
+                <img src="gallery/5.jpeg">
+            </button>
+        </p>
+    </div>
+
+    <script src="gallery.js"></script>
+
 </body>
 </html>
