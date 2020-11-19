@@ -39,7 +39,7 @@ function quickSort(arr) {
 
 //create random number array with length <= 1000
 const ARRAY_LENGTH = 1000
-let arr = Array.from(Array(ARRAY_LENGTH)).map(x=>Math.floor(Math.random()*100))
+let arr = Array.from(Array(ARRAY_LENGTH)).map(x=>Math.floor(Math.random()*1000))
 console.log(...arr)
 
 //functions to find min, max elements and median of the array
@@ -69,6 +69,3 @@ tagNames = [...uniuqeSet];
 for (let i = 1; i < tagNames.length; i++) {
     console.log(tagNames[i].toLowerCase() + " - " + document.getElementsByTagName(tagNames[i]).length);
 }
-
-
-
